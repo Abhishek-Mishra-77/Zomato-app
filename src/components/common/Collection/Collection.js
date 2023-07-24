@@ -32,7 +32,7 @@ const Collection = (props) => {
 
         <Slider {...settings}>
           {props.list.map((item) => (
-            <div>
+            <div key={item.id}>
               <div className='collection-cover'>
                 <img
                   src={item.cover}

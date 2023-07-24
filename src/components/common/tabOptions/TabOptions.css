@@ -1,5 +1,6 @@
 .tab-options {
   box-shadow: var(--border-white) 0px -0.5px 0px inset;
+  cursor: pointer;
 }
 
 .options-wrapper {
@@ -22,6 +23,11 @@
     width: 60px;
     border-radius: 50%;
     background-color: var(--inactive-color);
+}
+
+.tab-count{
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
 .active-tab {

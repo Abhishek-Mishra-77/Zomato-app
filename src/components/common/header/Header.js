@@ -25,13 +25,15 @@ const Header = () => {
             </div>
 
             <div className="profile-wrapper">
-               <img src="https://cdn-icons-png.flaticon.com/128/5777/5777661.png" alt="profile" className="header-profile-image"/>
-              <span  className="header-username">Abhishek</span>
-              <i className="fi fi-rr-angle-small-down absolute-center prifile-options-icon"></i>
+               <img src="https://cdn-icons-png.flaticon.com/128/5777/5777661.png" alt="profile" className="header-profile-image" />
+               <span className="header-username">Abhishek</span>
+               <i className="fi fi-rr-angle-small-down absolute-center prifile-options-icon"></i>
             </div>
 
+
+
          </div>
-      </div>
+      </div >
    )
 }
 

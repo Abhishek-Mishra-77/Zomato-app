@@ -1,12 +1,12 @@
 import React from "react";
 import Home from "./pages/Home/Home";
-
+import ItemProvider from "./components/ContextApi/ItemProvider";
 
 function App() {
   return (
-    <div>
-      <Home/>
-    </div>
+    <ItemProvider>
+      <Home />
+    </ItemProvider>
   );
 }
 

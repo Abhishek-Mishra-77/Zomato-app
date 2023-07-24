@@ -5,6 +5,7 @@ import Footer from '../../components/common/footer/Footer';
 import Delivery from '../../components/Delivery/Delivery';
 import DiningOut from '../../components/DiningOut/DiningOut';
 import NightLife from '../../components/NightLife/NightLife';
+import YourCart from '../../components/YourCard/YourCart';
 
 
 
@@ -33,6 +34,8 @@ const getCorrectScreen = (tabValue) => {
          return <DiningOut />
       case "Nightlife":
          return <NightLife />
+      case "YourCart":
+         return <YourCart />
       default:
          return <Delivery />
    }
