@@ -25,7 +25,7 @@ const YourCart = () => {
                             <tr key={product.resId}>
                                 <td>
                                     <div className='cart-info'>
-                                        <img src={product.image} alt='image' />
+                                        <img src={product.image} alt='cart' />
                                         <div>
                                             <h3>{product.title}</h3> 
                                             <small>Price : ₹{product.price}{" "}for one</small>

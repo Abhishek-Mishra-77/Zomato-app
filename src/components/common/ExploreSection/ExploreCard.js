@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from 'react';
+import React, { useContext } from 'react';
 import './ExploreCard.css';
 import { ItemProvideContext } from '../../ContextApi/ItemProvider';
 
@@ -14,16 +14,16 @@ const ExploreCard = ({ restaurant }) => {
     const aproxPrice = restaurant?.info?.cfo?.text;
     const offers = restaurant?.bulkOffers ?? [];
     const cuisines = restaurant?.info?.cuisine?.map((item) => item.name).slice(0, 3);
-   
 
-   
+
+
 
     const bottomContainers = restaurant?.bottomContainers;
     const goldOff = restaurant?.gold?.text;
     const proOff = offers.length > 1 ? offers[0].text : null;
     const discount = offers.length > 1 ? offers[1].text : offers.length === 1 ? offers[0].text : null;
 
-    
+
 
     return (
         <div className='explore-card cur-pro'>
@@ -44,7 +44,7 @@ const ExploreCard = ({ restaurant }) => {
                 {cuisines?.length && <div className='res-cuisine'>
                     {cuisines?.map((item, i) => {
                         return <span className='res-cuisine-tag' key={i}>
-                           
+
                             {item}
                             {i !== cuisines.length - 1 && ','}</span>
                     })}
