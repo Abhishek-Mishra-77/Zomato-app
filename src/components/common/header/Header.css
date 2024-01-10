@@ -65,30 +65,30 @@
 }
 
 .seacrh-input {
-    border: none;
-    outline: none;
-    width: 60%;
-    font-size: 14px;
+  border: none;
+  outline: none;
+  width: 60%;
+  font-size: 14px;
 }
 
 .profile-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 15%;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .header-profile-image {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 
 .header-username {
-    font-size: 16px;
-    font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.prifile-options-icon{
-    font-size: 20px;
+.prifile-options-icon {
+  font-size: 20px;
 }
-

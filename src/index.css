@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito&display=swap");
 
-@import './commonStyle/commonStyle.css';
-
+@import "./commonStyle/commonStyle.css";
 
 body {
   margin: 0;
-  font-family:'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
 .btn-primary {
   box-shadow: 0 0 10px 0 cyan;
-  
 }
 
 .btn-primary:hover {
@@ -27,4 +24,53 @@ code {
   transform: scale(1.09);
   transition: 1s ease-out;
   color: white;
+}
+
+/* @media quary to make website more responsive  */
+
+@media screen and (max-width: 1024px) {
+  .app {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .tab-item {
+    margin-right: 12px !important;
+    padding: 6px !important;
+  }
+  .filter-item {
+    padding: 2px !important;
+    margin: 4px !important;
+  }
+  .app {
+    padding: 40px;
+  }
+  .delivery-collections {
+    width: 130% !important;
+  }
+  .delivery-item-image {
+    height: 100%;
+    width: 70%;
+  }
+  .top-brands {
+    width: 130% !important;
+  }
+  .explore-section {
+    width: 120%;
+  }
+  .collection {
+    width: 120% !important;
+  }
+  .collection-image {
+    height: 0%;
+  }
+
+  td img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  td h3 {
+    font-size: 14px;
+  }
 }

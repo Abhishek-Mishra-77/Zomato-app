@@ -90,14 +90,7 @@ const diningFilters = [
     id: 6,
     title: "Gold"
   },
-  {
-    id: 7,
-    title: "Open Now"
-  },
-  {
-    id: 8,
-    title: "Serves Alcohol"
-  },
+
 
 ]
 

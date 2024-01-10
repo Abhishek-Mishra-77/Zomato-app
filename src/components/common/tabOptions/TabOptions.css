@@ -9,6 +9,7 @@
 .tab-item {
   margin-right: 24px;
   padding: 12px 12px 20px 12px;
+  flex-wrap: wrap;
 }
 
 .tab-name {
@@ -19,21 +20,21 @@
 }
 
 .tab-image-container {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: var(--inactive-color);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--inactive-color);
 }
 
-.tab-count{
+.tab-count {
   font-size: 25px;
   margin-bottom: 30px;
 }
 
 .active-tab {
-    border-bottom: 2px solid var(--zomato-red);
+  border-bottom: 2px solid var(--zomato-red);
 }
 
 .active-tab .tab-name {
-    color: var(--zomato-red);
+  color: var(--zomato-red);
 }

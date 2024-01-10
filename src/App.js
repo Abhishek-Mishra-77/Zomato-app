@@ -4,9 +4,11 @@ import ItemProvider from "./components/ContextApi/ItemProvider";
 
 function App() {
   return (
-    <ItemProvider>
-      <Home />
-    </ItemProvider>
+    <div className="app">
+      <ItemProvider>
+        <Home />
+      </ItemProvider>
+    </div>
   );
 }
 
